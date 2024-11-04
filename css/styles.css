@@ -1,0 +1,329 @@
+h1{
+    font-family: "poppins-extrabold";
+    background-color: snow;
+    color: red;
+    font-size: 50px;
+  }
+  
+  h2{
+    font-family: "poppins-regular";       
+    color: red;
+          
+  }
+
+  h3{
+      font-family: "poppins-regular";       
+      background-color: red;
+      color: snow;      
+  }
+
+  .nombre-producto{
+    font-family: "poppins-semibold" ;
+    color: #56514F;    
+    font-size: 20px;  
+  }
+
+  .precio{
+    font-family: "poppins-extrabold";
+    color:red;
+    font-size: 20px;
+  }
+  
+  p{
+    font-family: "roboto-medium";
+    background-color: snow;
+    color: #56514F;
+  }
+  
+  .menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+
+
+  .botonCompra{
+    
+    background: red;
+    color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .comentario{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  body{
+    background-color: snow;
+  }
+  
+  footer{
+    background-color: #ececec;
+  }
+  
+  ul, li{
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: red;
+  }
+  
+  
+  .poppins-thin {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .poppins-extralight {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .poppins-light {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .poppins-regular {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .poppins-medium {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .poppins-semibold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal; 
+    }
+    
+    .poppins-bold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .poppins-extrabold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+    
+    .poppins-black {
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    .poppins-thin-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: italic;
+    }
+    
+    .poppins-extralight-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: italic;
+    }
+    
+    .poppins-light-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: italic;
+    }
+    
+    .poppins-regular-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .poppins-medium-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: italic;
+    }
+    
+    .poppins-semibold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+    }
+    
+    .poppins-bold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .poppins-extrabold-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    
+    .poppins-black-italic {
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-style: italic;
+    }
+  
+    
+  .quicksand-regular {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  
+  .roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+  .grid-container {
+    grid-template:  /*phones.*/
+        "header" auto /*110px*/
+        "navbar" auto /*50*/
+        "main"   auto
+        "footer" 100px /
+        200px    auto;      
+  }	
+}
+
+/* Medium devices (landscape tablets, 768 px and up)*/
+@media (min-width: 768px){
+  .grid-container {
+      grid-template:  /*tablet.*/
+          "header  header" 110px
+          "navbar  navbar" auto /*50*/
+          "main main"   auto
+          "footer  footer" 100px /
+          200px    auto;      
+  }
+}
+
+/* Large devices (992 px and up) */
+@media (min-width: 992px){
+  .grid-container {
+      grid-template:  /*desktop.*/
+          "header  header  header"  120px
+          "navbar  main    main" auto
+          "footer  footer  footer"  100px /
+          100px    auto    200px;      
+  }
+}
+
+    
+  .container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+     margin: 10px;
+  }
+  
+
+  .card{
+    font-family: roboto-medium;
+    background-color: snow;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+  
+  .flex-container-beneficios{
+    display: inline-flex;
+    gap: 30px;
+  }
+
+  .flex-container-footer{
+    display:inline-flex;
+    gap: 115px;
+    
+  }
+  
