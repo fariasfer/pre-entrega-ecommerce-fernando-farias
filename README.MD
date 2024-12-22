@@ -1,7 +1,7 @@
 # Proyecto Ecommerce para Chikis Moda.
 
 ## Descripción:
-Este sitio es una página web desarrollada en HTML y CSS con el objetivo es comercializar ropa para bebés a través de su ecommerce.
+Este sitio es una página web desarrollada en HTML, CSS y JavaScript con el objetivo es comercializar ropa para bebés a través de su ecommerce.
 
 1. La página esta estructurada con HTML semántico y utiliza las etiquetas header, nav, main, section y footer para organizar el contenido.  
 
