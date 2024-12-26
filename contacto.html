@@ -37,28 +37,35 @@
             Si tenes alguna consulta o sugerencia nos encantaría conocerla.  Amamos saber lo que piensan nuestros seguidores.
         </h3>
 
-        <form action="https://formspree.io/f/xyzyzbvj" method="POST">
+
+
+    <div id="formulario">
+        <form name="fvalida" action="https://formspree.io/f/xyzyzbvj" method="POST">
         <fieldset>
             <legend>
                 Envíanos un Mensaje
             </legend>
-        <p>
-        <label for="nombre">NOMBRE</label>
-        <input size="25" type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre">
+        <p class="roboto-regular">
+        <label for="nombre">NOMBRE: </label>
+        <input size="42" type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre">
         </p>
-        <p>  
-        <label>EMAIL:
-          <input type="email" name="email" placeholder="ingresa tu email">
-        </label>
+        <p class="roboto-regular">
+        <label>EMAIL: </label>
+          <input size="45" type="email" name="email" placeholder="ingresa tu email">
         </p>
-        <p>
-        <label>MENSAJE:
-                <textarea name="message" placeholder="ingresa tu mensaje"></textarea>
-            </label>
+        <p class="roboto-regular">
+        <label>MENSAJE: </label>
+            
         </p>
-            <button type="submit">Enviar</button>
+        <textarea name="message" placeholder="ingresa tu mensaje" style="width: 422px; height: 80px;"></textarea>
+
+            <button type="submit" onclick="validarform()">Enviar</button>
         </fieldset>
       </form>
+    </div>    
+
+
+
 
       <h2 class="poppins-medium">Te esperamos en nuestro local</h2>
       <div>
