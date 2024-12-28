@@ -1,44 +1,3 @@
-/* Formulario: 
-
-Las validaciones utilizadas son:
-1. Nombre: no puede quedar vacío.
-2. Correo electrónico: no puede quedar vacío y debe tener el formato válido.
-3. Comentario: no puede quedar vacío. */
-
-
-function validarform(){
-    //valido el nombre
-    if (document.fvalida.nombre.value.length==0){
-       alert("Tiene que escribir su nombre")
-       document.fvalida.nombre.focus()
-       return 0;
-    }
-  
-    //valido el email
-    if (document.fvalida.email.value.length==0){
-        alert("Tiene que escribir su e-mail")
-        document.fvalida.email.focus()
-        return 0;
-    }
-    
-    //valido el email
-    valor = document.getElementById("email").value;
-    if( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(valor)) ) {
-         alert("Escriba un e-mail valido")
-         document.fvalida.email.focus()
-         return false;
-    }
-     
-    //valido el mensaje
-    if (document.fvalida.message.value.length==""){
-        alert("Tiene que escribir su mensaje")
-        document.fvalida.message.focus()
-        return 0;
-     }
-  }
-  
-  
-
 // Productos
 const productos = [
     {
@@ -379,18 +338,54 @@ const productos = [
     },
 ];
 
-
-
-// Carrito
 const carrito = JSON.parse(localStorage.getItem("carrito")) || []; //Reviso localStorage o creo array vacio carrito.
-//console.log(carrito, typeof carrito);
 
+const listadoProductos = document.querySelector(".listadoProductos");
 
-console.log(producto);
+listadoProductos.innerHTML = "";
 
-carrito.push(producto); // Agrego producto al carrito.
-console.log(carrito);
+productos.forEach(producto => {
+    const html = `
+        <div data-id="${producto.id}" class="card">
+            <h4 class="nombre-producto">${producto.nombre}</h4>
+            <img src="./img/${producto.imagen}" alt="${producto.nombre}" />
+            <p class="descripcion">${producto.descripcion}</p>
+            <p class="precio">${producto.precio}</p>     
+            <button type="button" class="agregar">Agregar</button>       
+        </div>    
+    `;
+    listadoProductos.innerHTML += html;
+});
 
-localStorage.setItem("carrito", JSON.stringify(carrito)); //Guarda carrito en LocalStorage.
+document.addEventListener("click", (event) => {
+    if (event.target.classList.contains("agregar")){
+        const id = event.target.closest("div").dataset.id;
 
+        const index = carrito.findIndex((item) => item.id == id);
+        
+    if (index == -1) {
+
+        const elemento = productos.find((producto) => producto.id == id);
+        console.log(elemento);
+
+        const { nombre, precio } = elemento; //Saco los datos que necesito.
+
+        const producto = { //Creo objeto con 4 propiedades.
+            id: id,
+            nombre: nombre,
+            precio: precio,
+            cantidad: 1,
+        };
+
+        carrito.push(producto); // Agrego producto al carrito.
+    } else {
+
+        const producto = carrito[index];
+        producto.cantidad++;
+    }
+
+        localStorage.setItem("carrito", JSON.stringify(carrito)); //Guarda carrito en LocalStorage.
+
+    };
+})
 

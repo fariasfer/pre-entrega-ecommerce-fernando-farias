@@ -35,45 +35,31 @@
         </ul>
     </nav></h2>
     <main>
-        <h2 class="poppins-medium">Formulario de Contacto</h2>
-        <h3>
-            Si tenes alguna consulta o sugerencia nos encantaría conocerla.  Amamos saber lo que piensan nuestros seguidores.
-        </h3>
 
+        <h1>Mi Tienda</h1>
 
+      <section class="carrito">
+        <h2>Carrito</h2>
 
-    <div id="formulario">
-        <form name="fvalida" action="https://formspree.io/f/xyzyzbvj" method="POST">
-        <fieldset>
-            <legend>
-                Envíanos un Mensaje
-            </legend>
-        <p class="roboto-regular">
-        <label for="nombre">NOMBRE: </label>
-        <input size="42" type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre">
-        </p>
-        <p class="roboto-regular">
-        <label>EMAIL: </label>
-          <input size="45" type="email" name="email" placeholder="ingresa tu email">
-        </p>
-        <p class="roboto-regular">
-        <label>MENSAJE: </label>
-            
-        </p>
-        <textarea name="message" placeholder="ingresa tu mensaje" style="width: 422px; height: 80px;"></textarea>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+              <th>Subtotal</th>
+            </tr>
+          </thead>
+          <tbody class="items">
+            <tr data-id="">
+              <td>Nombre</td>
+              <td>Cantidad</td>
+              <td>Precio</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-            <button type="submit" onclick="validarform()">Enviar</button>
-        </fieldset>
-      </form>
-    </div>    
-
-
-
-
-      <h2 class="poppins-medium">Te esperamos en nuestro local</h2>
-      <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13131.985879271622!2d-58.4726102!3d-34.6295295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc924b12e755b%3A0xfec2b1e4b2c9e667!2sChiky%20%26%20Moda!5e0!3m2!1ses-419!2sar!4v1730678570755!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
     </main>
     <footer class="flex-container-footer">  
         <section>
@@ -101,10 +87,13 @@
             <a href="https://www.instagram.com/chikymoda.ropainfantil/reel/C7uv0_psDH9/"><i class="fa-brands fa-instagram"></i></a>
         </p>       
         </section>
-     <p class="quicksand-regular">
-        Chiky & Moda | &copy; 2024 Todos los derechos reservados.
-    </p>  
-    </footer>    
-</body>
+        <p class="quicksand-regular">
+            Chiky & Moda | &copy; 2024 Todos los derechos reservados.
+        </p>  
+    </footer>
+    <script src="./js/carrito.js"></script>
+    </body>
 </html>
+    
+    
 

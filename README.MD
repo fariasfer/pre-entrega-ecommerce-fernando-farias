@@ -16,6 +16,40 @@ El contenido multimedia corresponde a imágenes de productos e iframe con el map
 
 6. El proyecto esta subido a Netlify y GitHub Pages.
 
+7. Script.js: cuenta con el archivo script.js para manejar la interactividad de la página.
+DOM: contiene validación de los campos del formulario de contacto.
+Visualización de Productos: cada producto cuenta con imágen, nombre y precio.
+
+8. Carrito de compras dinámico: 
+Agregar Productos al Carrito: los usuarios pueden agregar productos desde las tarjetas.
+Uso del localStorage: guarda el estado del carrito en localStorage para que no se pierda al actualizar o cerrar la página.
+
+9. Edición y visualización del carrito: 
+Visualización de Productos en el Carrito: muestra una lista de productos agregados al carrito, incluyendo cantidad, precio y total.
+
+10. SEO & Accesibilidad:
+Se utilizo alt en las imágenes para mejorar la accesibilidad.
+
+SEO Básico:
+Se utilizaron metaetiquetas en el head del HTML para optimizar el SEO.
+
+11. Git & GitHub:
+Se realizan commits regulares que documentan el progreso del proyecto.
+Se creo un repositorio en GitHub y se subió el proyecto.
+
+README.md:
+Se documenta el propósito del proyecto, instrucciones de configuración y cómo utilizarlo.
+
+12. Funcionalidad esperada del proyecto:
+Formulario de Contacto: se implemento un formulario funcional que envía los datos a través de Formspree.
+
+Diseño Responsivo:
+El sitio es adaptable a diferentes tamaños de pantalla.
+Persistencia del Carrito: el carrito se mantiene activo incluso si el usuario cierra o actualiza la pagina usando localStorage.
+
+
+
+
 
 
 ### Nota:
