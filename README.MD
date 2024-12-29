@@ -18,6 +18,7 @@ El contenido multimedia corresponde a imágenes de productos e iframe con el map
 
 7. Script.js: cuenta con el archivo script.js para manejar la interactividad de la página.
 DOM: contiene validación de los campos del formulario de contacto.
+Fetch Api: consume datos desde un archivo JSON usando fetch.
 Visualización de Productos: cada producto cuenta con imágen, nombre y precio.
 
 8. Carrito de compras dinámico: 

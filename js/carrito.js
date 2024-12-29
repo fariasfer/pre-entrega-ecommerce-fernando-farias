@@ -10,7 +10,7 @@ carrito.forEach((item) => {
             <td>${item.nombre}</td>
             <td>${item.cantidad}</td>
             <td>$ ${item.precio}</td>
-            <td>$ ${item.cantidad * item.precio}</td>                
+            <td>$ ${item.cantidad * item.precio}</td>           
         </tr>    
     `;
     
